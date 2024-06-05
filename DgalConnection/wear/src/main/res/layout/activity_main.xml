@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/conection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectado a: "
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/contadorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El contador es: "
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/contador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_Aumentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aumentar" />
+
+
+</LinearLayout>
